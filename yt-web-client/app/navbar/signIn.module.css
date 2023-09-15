@@ -1,0 +1,17 @@
+.sgn_button {
+    display: inline-block;
+    border: 1px solid gray;
+    color: #065fd4;
+    padding: 10px 20px;
+    border-radius: 24px;
+    font-family: "Roboto","Arial",sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .sgn_button:hover {
+    background-color: #bee0fd;
+    border: 1px solid transparent;
+  }
+  
