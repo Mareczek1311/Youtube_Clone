@@ -6,6 +6,7 @@ import SignIn from './signIn'
 import { useState } from 'react'
 import { User } from 'firebase/auth'
 import { onAuthStateChangedHelper } from '../firebase/firebase'
+import Upload from './upload'
 
 export default function Watch() {
 
@@ -28,6 +29,9 @@ export default function Watch() {
                     src={"/youtube-logo.svg"} 
                     alt="youtube-logo" />
             </Link>
+            {
+                user && <Upload />
+            }
             <SignIn 
                 user={user}
             />
