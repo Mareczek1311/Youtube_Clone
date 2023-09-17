@@ -1,7 +1,16 @@
+'use client';
+
+import { useSearchParams } from 'next/navigation'
+
 export default function Watch(){
-    return(
+
+    const videoPrefix = 'https://storage.googleapis.com/yt-clone-processed-bucket-mk/'
+    const videoSrc = useSearchParams().get('v');
+    
+    return (
         <div>
-            <h1>Watch page</h1>
+          <h1>Watch Page</h1>
+          { <video controls src={videoPrefix + videoSrc}/> }
         </div>
-    );
+      );
 }
