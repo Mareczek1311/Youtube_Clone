@@ -1,0 +1,21 @@
+.navbar{
+    width: 100vw;    
+    height: 8vh;
+    background-color: red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    width: 120px;
+    height: 40px;
+    padding: 10px;
+}
+
+
+.rightButtons{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}

@@ -7,6 +7,7 @@ import { useState } from 'react'
 import { User } from 'firebase/auth'
 import { onAuthStateChangedHelper } from '../firebase/firebase'
 import Upload from './upload'
+import styles from './navbar.module.css'
 
 export default function Watch() {
 
@@ -21,20 +22,21 @@ export default function Watch() {
     })
 
     return (
-        <nav>
+        <nav className={styles.navbar}>
             <Link href="/">
-                <Image
-                    width={120}
-                    height={40}
+                <img className={styles.logo}
                     src={"/youtube-logo.svg"} 
                     alt="youtube-logo" />
             </Link>
-            {
-                user && <Upload />
-            }
-            <SignIn 
-                user={user}
-            />
+
+            <div className={styles.rightButtons}>
+                {
+                    user && <Upload />
+                }
+                <SignIn 
+                    user={user}
+                />
+            </div>
         </nav>
     )
 
