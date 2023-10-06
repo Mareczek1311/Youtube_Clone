@@ -25,9 +25,14 @@ export default function Watch() {
         <nav className={styles.navbar}>
             <Link href="/">
                 <img className={styles.logo}
-                    src={"/youtube-logo.svg"} 
+                    src={"/ytlogo.svg"} 
                     alt="youtube-logo" />
             </Link>
+
+            <div>
+                <input type="text" placeholder='Szukaj' className={styles.searchInput}></input>
+                <button className={styles.searchButton}>?</button>
+            </div>
 
             <div className={styles.rightButtons}>
                 {

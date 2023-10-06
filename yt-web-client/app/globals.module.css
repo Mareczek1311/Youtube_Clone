@@ -1,0 +1,32 @@
+
+.layout{
+
+
+    margin: 0px;
+    display: grid;
+    grid-template-columns: minmax(200px, 200px) 4fr; 
+    grid-template-rows: 0fr auto; 
+    grid-template-areas: 
+    'navbar navbar'
+    'navbarside content';
+    height: 100vh;
+}
+
+.navbar{
+    grid-area: navbar;
+}
+
+.navbarSide{
+
+    grid-area: navbarside;
+    background-color: #0f0f0f;
+
+}
+
+.content{
+    
+    grid-area: content;
+    background-color: #0f0f0f;
+
+
+}
