@@ -29,8 +29,14 @@ export default function SignIn({ user }: SignInProps) {
                             {
                                 isOpened ?
                                     <div className={styles.userList}>
+                                        <div className={styles.firstSection}>
+                                            <img src="noImageUser.png" alt="IMG" className={styles.userImg} />
+                                            <div className={styles.firstSectionRight}>
+                                                <p>UserName</p>
+                                            </div>
+                                        </div>
                                         <button className={styles.sgn_button} onClick={signOut}>
-                                        Sign Out
+                                        Wyloguj się
                                         </button>
                                     </div> 
                                 : 

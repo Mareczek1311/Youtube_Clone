@@ -1,7 +1,7 @@
 .thumbnail{
   border-radius: 10px;
 
-  width: 300px;
+  width: 250px;
   height: 100%;
 
   transition: border-radius 0.5s ease;
@@ -48,6 +48,6 @@
 }
 
 .video{  
-    width: calc(33.33%); 
+    width: calc(25%); 
     margin-bottom: 50px; 
 }

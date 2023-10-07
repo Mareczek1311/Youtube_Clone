@@ -1,18 +1,18 @@
 .sgn_button {
     display: inline-block;
-    border: 1px solid gray;
-    color: #065fd4;
+    border-width: 0px;
+    color: white;
+    background-color: #282828;
     padding: 10px 20px;
-    border-radius: 24px;
     font-family: "Roboto","Arial",sans-serif;
     font-size: 14px;
     font-weight: 500;
     cursor: pointer;
+    width: 100%;
   }
   
   .sgn_button:hover {
-    background-color: #bee0fd;
-    border: 1px solid transparent;
+    background-color: #404040;
   }
   
 
@@ -28,5 +28,20 @@
 }
 
 .userList{
-  background-color: white;
+  width: 200px;
+  background-color: #282828;
+  border-radius: 20px;
+  color: white;
+  position:absolute;
+  top: 2%;
+  right: 5%;
+  height: 200px;
+}
+
+.firstSection{
+  display: flex;
+  padding: 10px;
+}
+.firstSectionRight{
+  margin-left: 5%;
 }
