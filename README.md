@@ -32,5 +32,3 @@ Welcome to my YouTube clone project! This web application provides a familiar Yo
 - Cloud Firestore stores metadata for the videos.
 - Cloud Run hosts a Next.js app, serving as the YouTube web client.
 - The Next.js app makes API calls to Firebase Functions, which fetch videos from Cloud Firestore.
-
-Feel free to explore, contribute, and enhance this YouTube clone project!
