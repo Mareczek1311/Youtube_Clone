@@ -2,6 +2,8 @@
 
 Welcome to my YouTube clone project! This web application provides a familiar YouTube-like experience with essential features such as video listing, watching, user authentication, and video uploading. The platform is built using a robust tech stack and leverages various Google Cloud services for seamless functionality.
 
+## LINK TO WEBSITE: https://yt-web-client-iqass5r2qq-uc.a.run.app/
+
 ## Features:
 
 - List videos
